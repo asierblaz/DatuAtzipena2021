@@ -58,7 +58,7 @@ public class Model {
 	public static ArrayList<Produktua> produktuaToArray(){
 		ArrayList<Produktua> produktuak = new ArrayList<Produktua>();
 		String sql = "SELECT * FROM public.product_template";
-		String s = "";
+		
 		try (Connection conn = connect();
 				Statement stmt = conn.createStatement();
 				ResultSet rs = stmt.executeQuery(sql)) {

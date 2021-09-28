@@ -28,7 +28,7 @@ public class PeliculaDaoJdbc  implements PeliculaDao{
 	 */
 	@PostConstruct
 	public void init() {
-		
+		//conexion y meter en el array
 	}
 
 	public Collection<Pelicula> findAll() {
